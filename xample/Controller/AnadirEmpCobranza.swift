@@ -32,16 +32,7 @@ class AnadirEmpCobranza: UIViewController {
     
     @IBAction func btnGuardar(_ sender: Any) {
         let empleado = Empleado(context: context)
-        //lat: 19.3095893, lon: -99.1940031
-        /*empleado.nombre = "jose"
-        empleado.direccion = "llanura 237"
-        empleado.postal = 04500
-        empleado.personaVisitara = "pedro"
-        empleado.adeudo = 123.00
-        empleado.notas = "notas de prueba"
-        empleado.delegacion = "Coyoacan"
-        empleado.latitud = 19.3095893
-        empleado.longitud = -99.1940031*/
+        
         if let nombre = nombreTxf.text {
             empleado.nombre = nombre
         }
