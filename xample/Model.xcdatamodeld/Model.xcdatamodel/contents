@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Empleado" representedClassName="Empleado" syncable="YES" codeGenerationType="class">
+        <attribute name="adeudo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="delegacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direccion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jefe" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personaVisitara" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postal" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Empleado" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>
